@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: project-staging
+resources:
+- namespace.yaml
+- ../../base
+patches:
+- path: configmap.yaml
+images:
+- name: PROJECT/APP
+  newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-app
+  newTag: main-0e4e4d392b22ad3a68f9d4d87bb815c96993f3c1
+- name: PROJECT/BACKEND
+  newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-backend
+  newTag: main-0e4e4d392b22ad3a68f9d4d87bb815c96993f3c1
+- name: PROJECT/BROADCASTER
+  newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-broadcaster
+  newTag: main-0e4e4d392b22ad3a68f9d4d87bb815c96993f3c1
