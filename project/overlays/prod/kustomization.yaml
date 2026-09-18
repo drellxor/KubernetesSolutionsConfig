@@ -8,10 +8,10 @@ resources:
 images:
   - name: PROJECT/APP
     newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-app
-    newTag: main-c58d57d120bbe574071754b088a3661019c483ab
+    newTag: "4.9"
   - name: PROJECT/BACKEND
     newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-backend
-    newTag: main-c58d57d120bbe574071754b088a3661019c483ab
+    newTag: "4.9"
   - name: PROJECT/BROADCASTER
     newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-broadcaster
-    newTag: main-c58d57d120bbe574071754b088a3661019c483ab
+    newTag: "4.9"
