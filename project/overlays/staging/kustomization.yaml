@@ -9,10 +9,10 @@ patches:
 images:
 - name: PROJECT/APP
   newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-app
-  newTag: main-f51d102e09289243788df44c0cd17138d5e99721
+  newTag: main-cb95e54e2ef8884089f66636a5f380f9cda881ba
 - name: PROJECT/BACKEND
   newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-backend
-  newTag: main-f51d102e09289243788df44c0cd17138d5e99721
+  newTag: main-cb95e54e2ef8884089f66636a5f380f9cda881ba
 - name: PROJECT/BROADCASTER
   newName: europe-north1-docker.pkg.dev/dwk-gke-508413/dwk-repo/todo-broadcaster
-  newTag: main-f51d102e09289243788df44c0cd17138d5e99721
+  newTag: main-cb95e54e2ef8884089f66636a5f380f9cda881ba
